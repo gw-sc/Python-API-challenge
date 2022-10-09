@@ -62,16 +62,16 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 * Temperature (F) vs. Latitude
 
-  ![temperature](output_data/fig1.png)
+  ![temperature](output_data/Fig1.png)
 * Humidity (%) vs. Latitude
 
-  ![humidity](output_data/fig2.png)
+  ![humidity](output_data/Fig2.png)
 * Cloudiness (%) vs. Latitude
 
-  ![cloudiness](output_data/fig3.png)
+  ![cloudiness](output_data/Fig3.png)
 * Wind Speed (mph) vs. Latitude
 
-  ![wind](output_data/fig4.png)
+  ![wind](output_data/Fig4.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
