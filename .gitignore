@@ -1,4 +1,4 @@
-.DS_Store
+
 
 # Adding config.py file.
 api_keys.py
@@ -6,6 +6,7 @@ api_keys.py
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
 
 # C extensions
 *.so
