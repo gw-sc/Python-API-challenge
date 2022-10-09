@@ -11,7 +11,7 @@ Now, we know what you may be thinking: _"Duh. It gets hotter ..."_
 
 But, if pressed, how would you **prove** it?
 
-### Before You Begin
+## Before You Begin
 
 1. Create a new repository for this project called `python-api-challenge`. **Do not add this homework to an existing repository**.
 
@@ -54,14 +54,24 @@ On GitHub, the only new file you should find is the `WeatherPy.ipynb` file.
 
 ## Part 1: WeatherPy
 
+  ![equator](Images/equatorsign.png)
+
 In this section, you'll create a Python script to visualize the weather of 500+ cities of varying distance from the equator. To do so, you'll use a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and your problem-solving skills to create a representative model of weather across cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+
+  ![temperature](output_data/fig1.png)
 * Humidity (%) vs. Latitude
+
+  ![humidity](output_data/fig2.png)
 * Cloudiness (%) vs. Latitude
+
+  ![cloudiness](output_data/fig3.png)
 * Wind Speed (mph) vs. Latitude
+
+  ![wind](output_data/fig4.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
@@ -85,7 +95,7 @@ Your final notebook must:
 * Include a print log of each city as it's being processed, with the city number and city name.
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
-### Part 2: VacationPy
+## Part 2: VacationPy
 
 Now, let's use your skills working with weather data to plan future vacations. Use Jupyter-gmaps and the Google Places API for this part of the assignment.
 
@@ -126,7 +136,7 @@ As final considerations:
 * Your plots must include labeling aspects like plot title (with date of analysis) and axis labels.
 * For max intensity in the heatmap, try setting it to the highest humidity found in the dataset.
 
-## Hints and Considerations
+### Hints and Considerations
 
 * The city data that you generate is based on random coordinates and different query times, so your outputs will not be an exact match to the provided starter notebook.
 
@@ -150,7 +160,7 @@ As final considerations:
 
 * Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
 
-## Rubric
+### Rubric
 
 [Unit 6 Homework Rubric](https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
 
